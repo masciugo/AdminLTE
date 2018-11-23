@@ -105,6 +105,31 @@
   }
 }
 
+.btn-analyst {
+  background-color: @purple;
+  border-color: darken(@purple, 5%);
+  &:hover, &:active, &.hover {
+    background-color: darken(@purple, 5%);
+  }
+}
+
+.btn-clinician {
+  background-color: @orange;
+  border-color: darken(@orange, 5%);
+  &:hover, &:active, &.hover {
+    background-color: darken(@orange, 5%);
+  }
+}
+
+// Warning appears as orange
+.btn-clinician {
+  .button-variant(@btn-clinician-color; @btn-clinician-bg; @btn-clinician-border);
+}
+// Danger and error appear as red
+.btn-analyst {
+  .button-variant(@btn-analyst-color; @btn-analyst-bg; @btn-analyst-border);
+}
+
 .btn-outline {
   border: 1px solid #fff;
   background: transparent;
