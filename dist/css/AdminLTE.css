@@ -1602,6 +1602,12 @@ a:focus {
 .box.box-default {
   border-top-color: #d2d6de;
 }
+.box.box-analyst {
+  border-top-color: #605ca8;
+}
+.box.box-clinician {
+  border-top-color: #ff851b;
+}
 .box.collapsed-box .box-body,
 .box.collapsed-box .box-footer {
   display: none;
@@ -1704,6 +1710,126 @@ a:focus {
 .box.box-solid.box-success > .box-header a,
 .box.box-solid.box-success > .box-header .btn {
   color: #fff;
+}
+.box.box-solid.box-analyst {
+  border: 1px solid #605ca8;
+}
+.box.box-solid.box-analyst > .box-header {
+  color: #ffffff;
+  background: #605ca8;
+  background-color: #605ca8;
+}
+.box.box-solid.box-analyst > .box-header a,
+.box.box-solid.box-analyst > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-clinician {
+  border: 1px solid #ff851b;
+}
+.box.box-solid.box-clinician > .box-header {
+  color: #ffffff;
+  background: #ff851b;
+  background-color: #ff851b;
+}
+.box.box-solid.box-clinician > .box-header a,
+.box.box-solid.box-clinician > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-default-lighten {
+  border: 1px solid #eff1f4;
+}
+.box.box-solid.box-default-lighten > .box-header {
+  color: #444444;
+  background: #eff1f4;
+  background-color: #eff1f4;
+}
+.box.box-solid.box-default-lighten > .box-header a,
+.box.box-solid.box-default-lighten > .box-header .btn {
+  color: #444444;
+}
+.box.box-solid.box-primary-lighten {
+  border: 1px solid #5fa4cc;
+}
+.box.box-solid.box-primary-lighten > .box-header {
+  color: #ffffff;
+  background: #5fa4cc;
+  background-color: #5fa4cc;
+}
+.box.box-solid.box-primary-lighten > .box-header a,
+.box.box-solid.box-primary-lighten > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-info-lighten {
+  border: 1px solid #23d4ff;
+}
+.box.box-solid.box-info-lighten > .box-header {
+  color: #ffffff;
+  background: #23d4ff;
+  background-color: #23d4ff;
+}
+.box.box-solid.box-info-lighten > .box-header a,
+.box.box-solid.box-info-lighten > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-danger-lighten {
+  border: 1px solid #e47365;
+}
+.box.box-solid.box-danger-lighten > .box-header {
+  color: #ffffff;
+  background: #e47365;
+  background-color: #e47365;
+}
+.box.box-solid.box-danger-lighten > .box-header a,
+.box.box-solid.box-danger-lighten > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-warning-lighten {
+  border: 1px solid #f5b043;
+}
+.box.box-solid.box-warning-lighten > .box-header {
+  color: #ffffff;
+  background: #f5b043;
+  background-color: #f5b043;
+}
+.box.box-solid.box-warning-lighten > .box-header a,
+.box.box-solid.box-warning-lighten > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-success-lighten {
+  border: 1px solid #00d976;
+}
+.box.box-solid.box-success-lighten > .box-header {
+  color: #ffffff;
+  background: #00d976;
+  background-color: #00d976;
+}
+.box.box-solid.box-success-lighten > .box-header a,
+.box.box-solid.box-success-lighten > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-analyst-lighten {
+  border: 1px solid #807dba;
+}
+.box.box-solid.box-analyst-lighten > .box-header {
+  color: #ffffff;
+  background: #807dba;
+  background-color: #807dba;
+}
+.box.box-solid.box-analyst-lighten > .box-header a,
+.box.box-solid.box-analyst-lighten > .box-header .btn {
+  color: #ffffff;
+}
+.box.box-solid.box-clinician-lighten {
+  border: 1px solid #ffa04e;
+}
+.box.box-solid.box-clinician-lighten > .box-header {
+  color: #ffffff;
+  background: #ffa04e;
+  background-color: #ffa04e;
+}
+.box.box-solid.box-clinician-lighten > .box-header a,
+.box.box-solid.box-clinician-lighten > .box-header .btn {
+  color: #ffffff;
 }
 .box.box-solid > .box-header > .box-tools .btn {
   border: 0;
@@ -2051,6 +2177,20 @@ a:focus {
 }
 .modal .panel-body {
   color: #444;
+}
+/*
+ * Component: wells
+ * ----------------
+ */
+.well-clinician {
+  background-color: transparent !important;
+  border: 2px solid #ff851b;
+  color: #ff851b;
+}
+.well-analyst {
+  background-color: transparent !important;
+  border: 2px solid #605ca8;
+  color: #605ca8;
 }
 /*
  * Component: Info Box
@@ -5143,11 +5283,17 @@ fieldset[disabled] .btn-yahoo.focus {
 .bg-orange {
   background-color: #FF851B !important;
 }
+.bg-light-orange {
+  background-color: #ffc99b !important;
+}
 .bg-fuchsia {
   background-color: #F012BE !important;
 }
 .bg-purple {
   background-color: #605ca8 !important;
+}
+.bg-light-purple {
+  background-color: #b1afd4 !important;
 }
 .bg-maroon {
   background-color: #D81B60 !important;
