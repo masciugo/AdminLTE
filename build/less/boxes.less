@@ -30,6 +30,12 @@
   &.box-default {
     border-top-color: @gray-lte;
   }
+  &.box-analyst {
+    border-top-color: @btn-analyst-bg;
+  }
+  &.box-clinician {
+    border-top-color: @btn-clinician-bg;
+  }
 
   // collapsed mode
   &.collapsed-box {
@@ -100,6 +106,37 @@
     }
     &.box-success {
       .box-solid-variant(@green);
+    }
+    &.box-analyst {
+      .box-solid-variant(@purple);
+    }
+    &.box-clinician {
+      .box-solid-variant(@orange);
+    }
+
+    &.box-default-lighten {
+      .box-solid-variant(lighten(@gray-lte, 10%), #444);
+    }
+    &.box-primary-lighten {
+      .box-solid-variant(lighten(@light-blue, 10%));
+    }
+    &.box-info-lighten {
+      .box-solid-variant(lighten(@aqua, 10%));
+    }
+    &.box-danger-lighten {
+      .box-solid-variant(lighten(@red, 10%));
+    }
+    &.box-warning-lighten {
+      .box-solid-variant(lighten(@yellow, 10%));
+    }
+    &.box-success-lighten {
+      .box-solid-variant(lighten(@green, 10%));
+    }
+    &.box-analyst-lighten {
+      .box-solid-variant(lighten(@purple, 10%));
+    }
+    &.box-clinician-lighten {
+      .box-solid-variant(lighten(@orange, 10%));
     }
 
     > .box-header > .box-tools .btn {
