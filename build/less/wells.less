@@ -3,26 +3,41 @@
  * ----------------
  */
 
-.well-clinician {
+ .well-clinician {
+   background-color: lighten(@green, 50%);
+   border: none;
+ }
+ .well-analyst {
+   background-color: lighten(@purple, 30%);
+   border: none;
+ }
+ .well-biobank {
+   background-color: lighten(@red, 30%);
+   border: none;
+ }
+ .well-osr {
+   background-color: lighten(@orange, 30%);
+   border: none;
+ }
+
+
+.well-outline {
   background-color: transparent !important;
-  border: 2px solid @green;
-  color: @green;
+  border: 2px solid;
+
+  &.well-clinician {
+    border-color: @green;
+  }
+  &.well-analyst {
+    border-color: @purple;
+  }
+  &.well-biobank {
+    border-color: @red;
+  }
+  &.well-osr {
+    border-color: @orange;
+  }
+
 }
 
-.well-analyst {
-  background-color: transparent !important;
-  border: 2px solid @purple;
-  color: @purple;
-}
-.well-biobank {
-  background-color: transparent !important;
-  border: 2px solid @red;
-  color: @red;
-}
-
-.well-osr {
-  background-color: transparent !important;
-  border: 2px solid @orange;
-  color: @orange;
-}
 

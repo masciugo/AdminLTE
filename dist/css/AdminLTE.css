@@ -2178,24 +2178,36 @@ a:focus {
  * ----------------
  */
 .well-clinician {
-  background-color: transparent !important;
-  border: 2px solid #00a65a;
-  color: #00a65a;
+  background-color: #a6ffd6;
+  border: none;
 }
 .well-analyst {
-  background-color: transparent !important;
-  border: 2px solid #605ca8;
-  color: #605ca8;
+  background-color: #c1c0dd;
+  border: none;
 }
 .well-biobank {
-  background-color: transparent !important;
-  border: 2px solid #dd4b39;
-  color: #dd4b39;
+  background-color: #f3c2bc;
+  border: none;
 }
 .well-osr {
+  background-color: #ffd7b4;
+  border: none;
+}
+.well-outline {
   background-color: transparent !important;
-  border: 2px solid #ff851b;
-  color: #ff851b;
+  border: 2px solid;
+}
+.well-outline.well-clinician {
+  border-color: #00a65a;
+}
+.well-outline.well-analyst {
+  border-color: #605ca8;
+}
+.well-outline.well-biobank {
+  border-color: #dd4b39;
+}
+.well-outline.well-osr {
+  border-color: #ff851b;
 }
 /*
  * Component: Info Box
