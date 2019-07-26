@@ -2196,6 +2196,7 @@ a:focus {
 .well-outline {
   background-color: transparent !important;
   border: 2px solid;
+  border-color: #777777;
 }
 .well-outline.well-clinician {
   border-color: #00a65a;
